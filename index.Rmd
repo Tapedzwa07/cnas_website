@@ -1,0 +1,30 @@
+---
+title: "Carbon Neutral Advisory Services"
+description: |
+  EMA-Registered Environmental Consulting, Industrial Training,
+  and AI-Powered Social Impact across Zimbabwe, Botswana, and South Africa.
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+# Welcome to CNAS
+
+We provide expert environmental consulting and innovative educational solutions.
+
+## Our Services
+
+- **Environmental Impact Assessments (EIA)** – registered with EMA.
+- **Waste Management & Circular Economy** – vermicomposting, waste audits, landfill design.
+- **Carbon Advisory & Net Zero Strategy** – carbon footprint measurement and decarbonisation.
+- **Training & Capacity Building** – farmers' training, SHEQ, HAZOP.
+- **TheTeacher.AI** – AI-powered WhatsApp chatbot supporting Zimbabwean teachers from ECD to Form 6.
+
+## Contact Us
+
+- **Zimbabwe:** +263 77 779 1851  
+- **Botswana:** +267 71 505 830  
+- **South Africa:** +27 69 580 1598  
+- **Email:** etapedzwa@gmail.com

@@ -1,0 +1,36 @@
+---
+title: "Our Advisory Services"
+description: |
+  Environmental consulting, training, and AI solutions.
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+# Our Advisory Services
+
+## Environmental Consulting
+
+- Environmental Impact Assessments (EIA)
+- Waste Management & Circular Economy
+- Carbon Advisory & Net Zero Strategy
+- Academic & Technical Consulting
+
+## Training & Capacity Building
+
+- Farmers Training (Climate-Smart Agriculture, Global G.A.P.)
+- Industrial SHEQ Training
+- HAZOP Training
+
+## TheTeacher.AI
+
+AI-powered WhatsApp chatbot for Zimbabwean teachers (ECD to Form 6).
+
+## Contact Us
+
+- **Zimbabwe:** +263 77 779 1851
+- **Botswana:** +267 71 505 830
+- **South Africa:** +27 69 580 1598
+- **Email:** etapedzwa@gmail.com

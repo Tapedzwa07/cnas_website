@@ -1,0 +1,16 @@
+title: "Carbon Neutral Advisory Services"
+description: |
+  EMA-Registered Environmental Consulting, Industrial Training, and AI-Powered Social Impact
+output_dir: "_site"
+
+navbar:
+  title: "CNAS"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Services"
+      href: services.html
+    - text: "About"
+      href: about.html
+    - text: "Contact"
+      href: contact.html
