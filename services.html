@@ -18,20 +18,21 @@
 
     .page-title { background: #2c7a2c; color: white; text-align: center; padding: 60px 20px; }
     .page-title h1 { font-size: 42px; }
+    .page-title p { font-size: 18px; max-width: 700px; margin: 10px auto 0; }
 
-    .section { padding: 60px 0; }
+    .section { padding: 40px 0; }
     .section:nth-child(even) { background: #f5f9f5; }
-    .section h2 { color: #1a5a1a; font-size: 28px; margin-bottom: 15px; }
-    .section ul { padding-left: 25px; }
-    .section li { margin: 8px 0; }
-
-    .card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 20px 0; }
+    .section h2 { color: #1a5a1a; font-size: 28px; margin-bottom: 20px; border-bottom: 3px solid #2c7a2c; padding-bottom: 10px; }
+    .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; }
+    .service-item { background: white; padding: 15px 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); border-left: 4px solid #2c7a2c; }
+    .service-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); transform: translateY(-2px); transition: all 0.3s; }
 
     .footer { background: #0d3d0d; color: #aaa; text-align: center; padding: 20px; font-size: 14px; }
 
     @media (max-width: 768px) {
       .header .container { flex-direction: column; gap: 10px; }
       .page-title h1 { font-size: 28px; }
+      .service-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -51,35 +52,83 @@
 
   <section class="page-title">
     <div class="container">
-      <h1>Our Advisory Services</h1>
-      <p>Expert environmental consulting, training, and AI solutions.</p>
+      <h1>Our Services</h1>
+      <p>Comprehensive environmental, safety, and project management solutions</p>
     </div>
   </section>
 
+  <!-- SAFETY, HEALTH AND QUALITY SERVICES -->
   <section class="section">
     <div class="container">
-      <div class="card">
-        <h2>🌍 Environmental Consulting</h2>
-        <ul>
-          <li>Environmental Impact Assessments (EIA) – registered with EMA</li>
-          <li>Waste Management &amp; Circular Economy</li>
-          <li>Carbon Advisory &amp; Net Zero Strategy</li>
-          <li>Academic &amp; Technical Consulting</li>
-        </ul>
+      <h2>🛡️ Safety, Health and Quality Services</h2>
+      <div class="service-grid">
+        <div class="service-item">Safety, Health and Quality Audits</div>
+        <div class="service-item">ISO Management Systems Development and Implementation</div>
+        <div class="service-item">Cleaner Production Systems</div>
+        <div class="service-item">Environmental Impact Assessment</div>
+        <div class="service-item">Environmental Management Services</div>
+        <div class="service-item">Environmental Plans (EMP)</div>
+        <div class="service-item">Environmental Auditing</div>
+        <div class="service-item">Baseline Surveys - Soil Surveys</div>
+        <div class="service-item">GIS Mapping and Resource Surveys</div>
+        <div class="service-item">Water Resource Management</div>
       </div>
+    </div>
+  </section>
 
-      <div class="card">
-        <h2>📚 Training &amp; Capacity Building</h2>
-        <ul>
-          <li>Farmers Training (Climate-Smart Agriculture, Global G.A.P.)</li>
-          <li>Industrial SHEQ Training</li>
-          <li>HAZOP Training</li>
-        </ul>
+  <!-- ENVIRONMENTAL MANAGEMENT SERVICE -->
+  <section class="section">
+    <div class="container">
+      <h2>🌍 Environmental Management Service</h2>
+      <div class="service-grid">
+        <div class="service-item">Waste Management Plans</div>
+        <div class="service-item">Air Quality Emission Surveys</div>
+        <div class="service-item">Project Decommissioning</div>
+        <div class="service-item">Sustainable Solutions</div>
+        <div class="service-item">Slimes Dam Siting and Monitoring</div>
+        <div class="service-item">Industrial Hygiene</div>
+        <div class="service-item">Forest Inventories</div>
       </div>
+    </div>
+  </section>
 
-      <div class="card">
-        <h2>🤖 TheTeacher.AI</h2>
-        <p>AI-powered WhatsApp chatbot for Zimbabwean teachers (ECD to Form 6).</p>
+  <!-- TRAINING SERVICES -->
+  <section class="section">
+    <div class="container">
+      <h2>📚 Training Services</h2>
+      <div class="service-grid">
+        <div class="service-item">Occupational Safety &amp; Health Training</div>
+        <div class="service-item">Industrial Hygiene Training</div>
+        <div class="service-item">Fire Fighting Training</div>
+        <div class="service-item">Chemical Handling Training</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT MANAGEMENT, MONITORING & EVALUATION -->
+  <section class="section">
+    <div class="container">
+      <h2>📊 Project Management, Monitoring &amp; Evaluation</h2>
+      <div class="service-grid">
+        <div class="service-item">Project Planning &amp; Management</div>
+        <div class="service-item">Monitoring &amp; Evaluation (M&amp;E)</div>
+        <div class="service-item">Impact Assessment</div>
+        <div class="service-item">Data Collection &amp; Analysis</div>
+        <div class="service-item">Project Reporting &amp; Learning</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ECOSYSTEM RESTORATION -->
+  <section class="section">
+    <div class="container">
+      <h2>🌱 Ecosystem Restoration</h2>
+      <div class="service-grid">
+        <div class="service-item">Ecosystem Assessment &amp; Restoration Planning</div>
+        <div class="service-item">Habitat &amp; Landscape Restoration</div>
+        <div class="service-item">Native Vegetation Rehabilitation</div>
+        <div class="service-item">Biodiversity &amp; Ecosystem Monitoring</div>
+        <div class="service-item">Restoration Impact Assessment &amp; Reporting</div>
       </div>
     </div>
   </section>
