@@ -18,18 +18,27 @@
 
     .page-title { background: #2c7a2c; color: white; text-align: center; padding: 60px 20px; }
     .page-title h1 { font-size: 42px; }
+    .page-title p { font-size: 18px; max-width: 700px; margin: 10px auto 0; }
 
     .section { padding: 60px 0; }
-    .section h2 { color: #1a5a1a; font-size: 28px; margin-bottom: 15px; }
-    .contact-card { background: #f5f9f5; padding: 30px; border-radius: 10px; margin: 20px 0; }
-    .contact-card p { font-size: 18px; margin: 10px 0; }
-    .contact-card a { color: #1a5a1a; }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+    .contact-card { background: #f5f9f5; padding: 30px; border-radius: 10px; }
+    .contact-card h2 { color: #1a5a1a; font-size: 24px; margin-bottom: 20px; border-bottom: 2px solid #2c7a2c; padding-bottom: 10px; }
+    .contact-card p { font-size: 18px; margin: 12px 0; }
+    .contact-card a { color: #1a5a1a; text-decoration: none; }
+    .contact-card a:hover { text-decoration: underline; }
+    .icon { margin-right: 10px; }
+
+    .map-card { background: #f5f9f5; padding: 30px; border-radius: 10px; text-align: center; }
+    .map-card h2 { color: #1a5a1a; font-size: 24px; margin-bottom: 20px; border-bottom: 2px solid #2c7a2c; padding-bottom: 10px; }
+    .map-placeholder { background: #e0ece0; padding: 60px 20px; border-radius: 8px; color: #1a5a1a; }
 
     .footer { background: #0d3d0d; color: #aaa; text-align: center; padding: 20px; font-size: 14px; }
 
     @media (max-width: 768px) {
       .header .container { flex-direction: column; gap: 10px; }
       .page-title h1 { font-size: 28px; }
+      .contact-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -56,19 +65,47 @@
 
   <section class="section">
     <div class="container">
-      <div class="contact-card">
-        <h2>📞 Contact Details</h2>
-        <p><strong>Zimbabwe:</strong> +263 77 779 1851</p>
-        <p><strong>Botswana:</strong> +267 71 505 830</p>
-        <p><strong>South Africa:</strong> +27 69 580 1598</p>
-        <p><strong>Email:</strong> <a href="mailto:etapedzwa@gmail.com">etapedzwa@gmail.com</a></p>
-      </div>
+      <div class="contact-grid">
 
-      <div class="contact-card">
-        <h2>🕐 Business Hours</h2>
-        <p><strong>Monday to Friday:</strong> 8:00 AM - 5:00 PM (CAT)</p>
-        <p><strong>Saturday:</strong> 9:00 AM - 1:00 PM</p>
-        <p><strong>Sunday:</strong> Closed</p>
+        <!-- Contact Details -->
+        <div class="contact-card">
+          <h2>📞 Contact Details</h2>
+          <p><span class="icon">📱</span> <strong>Zimbabwe:</strong> +263 77 779 1851</p>
+          <p><span class="icon">📱</span> <strong>Botswana:</strong> +267 71 505 830</p>
+          <p><span class="icon">📱</span> <strong>South Africa:</strong> +27 69 580 1598</p>
+          <p><span class="icon">📧</span> <strong>Email:</strong> <a href="mailto:etapedzwa@gmail.com">etapedzwa@gmail.com</a></p>
+        </div>
+
+        <!-- Address -->
+        <div class="contact-card">
+          <h2>📍 Our Address</h2>
+          <p><strong>Physical Address:</strong></p>
+          <p>768/2 Zororo Street</p>
+          <p>Dzivarasekwa 3</p>
+          <p>Harare, Zimbabwe</p>
+          <br>
+          <p><strong>Postal Address:</strong></p>
+          <p>B768 Zororo Street</p>
+          <p>Dzivarasekwa 3</p>
+          <p>Harare, Zimbabwe</p>
+        </div>
+
+        <!-- Business Hours -->
+        <div class="contact-card">
+          <h2>🕐 Business Hours</h2>
+          <p><strong>Monday to Friday:</strong> 8:00 AM - 5:00 PM (CAT)</p>
+          <p><strong>Saturday:</strong> 9:00 AM - 1:00 PM</p>
+          <p><strong>Sunday:</strong> Closed</p>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="contact-card">
+          <h2>💬 WhatsApp</h2>
+          <p>Chat with us directly on WhatsApp!</p>
+          <br>
+          <a href="https://wa.me/263777791851" style="display: inline-block; background: #25D366; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-weight: bold;">Chat Now</a>
+        </div>
+
       </div>
     </div>
   </section>
