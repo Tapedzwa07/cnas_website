@@ -5,3 +5,8 @@
 _site/
 site_libs/
 
+
+# diagnostic artefacts
+ftp_root.html
+live_index.html
+*.tmp
