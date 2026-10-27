@@ -183,3 +183,4 @@ background:radial-gradient(circle at 50% 100%,transparent 0 52%,#9cc4ff 52% 58%,
 .btn.btn-fb{background:#1877F2;color:#fff;margin-top:16px}
 .card-links{margin-top:12px;font-size:14px;font-weight:600}.card-links a{color:var(--purple)}
 #academic{scroll-margin-top:90px}
+.li-link{display:inline-flex;align-items:center;gap:8px;font-weight:700}.li-link span{display:inline-block;background:#0A66C2;color:#fff;border-radius:4px;padding:0 6px;font-weight:800;font-size:13px;line-height:20px}
