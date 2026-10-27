@@ -174,3 +174,12 @@ background:radial-gradient(circle at 50% 100%,transparent 0 52%,#9cc4ff 52% 58%,
 @media (prefers-reduced-motion:reduce){.bg span,.hero,.cta,.card:before,.site-header:after,.site-footer:before,.hero h1:after{animation:none}}
 @media(max-width:768px){.hero:before{width:640px;height:320px;margin-left:-320px;bottom:-150px;opacity:.4}.hero:after{display:none}.cta:before{bottom:-140px;opacity:.28}}
 
+
+/* Academic Assistant Services: Facebook page */
+.fb-academic{display:flex;flex-wrap:wrap;gap:28px;align-items:center;margin-top:28px;padding:26px;border-radius:16px;background:linear-gradient(135deg,rgba(24,119,242,.08),rgba(124,58,237,.08));border:1px solid rgba(24,119,242,.25)}
+.fb-text{flex:1 1 280px}.fb-text h3{color:#1877F2;margin-bottom:8px}
+.fb-embed{flex:0 1 340px;max-width:100%;overflow:hidden;border-radius:12px;background:#fff}
+.fb-embed iframe{max-width:100%;display:block}
+.btn.btn-fb{background:#1877F2;color:#fff;margin-top:16px}
+.card-links{margin-top:12px;font-size:14px;font-weight:600}.card-links a{color:var(--purple)}
+#academic{scroll-margin-top:90px}
